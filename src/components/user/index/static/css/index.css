@@ -1,0 +1,151 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+.search{
+    width: 100%;
+    height:0.78rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8fcff;
+    /*align-items: center;*/
+    padding: 0 0.24rem;
+}
+.search span{
+    font-size: 0.28rem;
+    color: #36a8fe;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+.search i{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: #36a8fe;
+}
+.search .input{
+    width: 5.93rem;
+    height: 0.6rem;
+    position: relative;
+}
+.search img{
+    width: 0.38rem;
+    height: 0.38rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: 0.18rem;
+}
+.search input{
+    width: 5.93rem;
+    height: 0.6rem;
+    padding-left: 0.37rem;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    background: rgba(235,247,255,0.58);
+    border: solid 0.03rem rgba(55, 169, 254, 0.1);
+    float: right;
+}
+input::-webkit-input-placeholder{
+    color: #c8d9e6;
+    line-height: 0.6rem;
+    font-size: 0.24rem;
+}
+.lunbo{
+    width: 100%;
+    height: 3.07rem;
+    position: relative;
+}
+.lunbo .swiper-container{
+    height: 100%;
+}
+.lunbo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.lunbo  .img{
+    width: 100%;
+    height: 100%;
+}
+.lunbo  .img  img{
+    width: 100%;
+    height: 100%;
+}
+.lunbo > .btn{
+    width: 0.6rem;
+    height: 0.11rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    bottom: 0.17rem;
+    margin-left: -0.3rem;
+}
+.lunbo > .btn > li{
+    width: 0.11rem;
+    height: 0.11rem;
+    border-radius: 50%;
+    background: #c7eafd;
+}
+.lunbo > .btn >li.hot{
+    background: #46b7f8;
+}
+ul.class{
+    width: calc(100% - 0.8rem);
+    height: auto;
+    padding: 0 0.24rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.class li{
+    width: 1.92rem;
+    height: 1.92rem;
+    margin-top: 0.46rem;
+}
+.class li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.class li a .img{
+    width: 1.13rem;
+    height: 1.13rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #00aaee;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(83, 191, 254, 0.5);
+}
+.class li:nth-of-type(1) a .img{
+    background: #00aaee url("../img/l1.png") center/cover;
+}
+.class li:nth-of-type(2) a .img{
+    background: #00aaee url("../img/l2.png")  center/cover;
+}
+.class li:nth-of-type(3) a .img{
+    background: #00aaee url("../img/l3.png")  center/cover;
+}
+.class li:nth-of-type(4) a .img{
+    background: #00aaee url("../img/l4.png")  center/cover;
+}
+.class li:nth-of-type(5) a .img{
+    background: #00aaee url("../img/l5.png")  center/cover;
+}
+.class li:nth-of-type(6) a .img{
+    background: #00aaee url("../img/l6.png")  center/cover;
+}
+.class li:nth-of-type(7) a .img{
+    background: #00aaee url("../img/l7.png")  center/cover;
+}
+.class li:nth-of-type(8) a .img{
+    background: #00aaee url("../img/l8.png")  center/cover;
+}
+.class li a p{
+    margin-top: 0.28rem;
+    font-size: 0.24rem;
+    color: #646666;
+    text-align: center;
+}
